@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Game </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./Assests/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <!--Quiz Heading and Paragrapgh-->
+        <div id="start-screen">
+            <div class="heading-font">
+                <h1> CODING QUIZ GAME </h1>
+            </div>
+            <div class="main-para">
+                <!--Intro Paragrapgh-->
+                <p>
+                    Try to answer the following code-related questions within the time limit. Keep in mind that
+                    incorrect answer will penalize your score time by fifteenth seconds!! GOOD LUCK!!
+                </p>
+            </div>
+            <!--Start Button-->
+            <button class="start-button"> START </button>
+    </header>
+    <main>
+        </div>
+        <!--Question, Answers, Score and Feeback-->
+        <h1 class="start-timer" style="text-align: right;"></h1>
+        <div id="main"></div>
+        <div id="question-screen" class="hidden">
+            <div id="question"></div>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <p class="hidden">Score: <span id="score">0</span></p>
+        </div>
+        <!--Saving the scores-->
+        <div id="endScreen" class="hidden">
+            <label for="initials">Enter initials: </label>
+            <input type="text" id="initials" placeholder= "Initials">
+            <button id="saveScoreButton">Save Score</button>
+        </div>
+        <!--Highscore-->
+        <div id="highScores">
+            <h2>High Scores</h2>
+            <ol id="highScoresList"></ol>
+            <button id="clearHighScoresButton">Clear HighScores</button>
+            <button id="restartButton">Restart Quiz</button>
+        </div>
+    </main>
+
+    <script src="./Assests/javascript/script.js"></script>
+</body>
+<!--Footer if needed-->
+</html>

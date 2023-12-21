@@ -1,0 +1,76 @@
+* {
+    margin : 3%;
+    box-sizing: border-box;
+
+}
+:root {
+    --purple: #C3B1E1;
+}
+.heading-font {
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+.main-para,
+#endScreen{
+    font-size: 30px;
+    text-align: center;
+}
+
+#initials {
+    font-size: 25px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#question,
+#score {
+    font-size: 200%;
+    text-align: center;
+}
+
+.start-button {
+    background: var(--purple) ;
+    border-radius: 8px;
+    font-size: 2em;
+    line-height: 16px;
+    padding: 20px 52px;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+#restartButton,
+#clearHighScoresButton,
+#saveScoreButton{
+    background: var(--purple) ;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+#choices button{
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding:2%;
+    margin: 1%;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#choices button:hover {
+    background-color: var(--purple);
+    color: white;
+}
+
