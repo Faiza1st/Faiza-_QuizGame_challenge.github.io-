@@ -41,6 +41,9 @@ Restart Functionality: To retake the quiz, reset the quiz to its starting condit
 ./ Assests/images/ScorePage.png
 ./ Assests/images/StoredHighScorePage.png
 
+## Deployed Link
+https://faiza1st.github.io/QuizGame.github.io-/
+
 ## License
 This project is licensed under the MIT License.
 
